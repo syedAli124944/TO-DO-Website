@@ -7,7 +7,7 @@ const NAV = [
 ];
 
 export default function Sidebar({ page, setPage, isOpen, setIsOpen }) {
-  const { projects, tasks } = useTasks();
+  const { tasks } = useTasks();
   const pendingCount = tasks.filter(t => !t.completed).length;
 
   return (

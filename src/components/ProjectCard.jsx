@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ProjectTasksList from './ProjectTasksList';
 
 export default function ProjectCard({ project, stats, tasks, idx, isExpanded, onToggleExpand, onDelete, onAddTask }) {

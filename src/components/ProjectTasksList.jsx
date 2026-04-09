@@ -1,7 +1,6 @@
-import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
-export default function ProjectTasksList({ tasks, color }) {
+export default function ProjectTasksList({ tasks }) {
   const completedTasks = tasks.filter(t => t.completed);
 
   if (completedTasks.length === 0) {

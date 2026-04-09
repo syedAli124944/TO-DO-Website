@@ -16,7 +16,7 @@ import SortableTaskItem from './SortableTaskItem';
 import { useTasks } from '../context/TaskContext.jsx';
 
 export default function TaskBoard({ tasks, projects }) {
-  const { toggleTask, updateTask, setTasks, addNotification } = useTasks();
+  const { toggleTask, setTasks, addNotification } = useTasks();
   const [activeId, setActiveId] = useState(null);
 
   const sensors = useSensors(

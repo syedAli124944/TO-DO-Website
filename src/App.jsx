@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { useTheme } from './context/ThemeContext';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import ProfileModal from './components/ProfileModal';
